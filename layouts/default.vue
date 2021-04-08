@@ -60,7 +60,6 @@
         Recolher carrinho
     </v-btn> 
 
-    {{$store.getters.totalItems}}
     <v-alert
       border="top"
       colored-border
@@ -105,6 +104,17 @@
           <hr>
           <p class="my-3"><b>Total:</b>  R$ {{ formata_preco($store.getters.totalPrice) }}</p>
           <hr>
+
+          <v-alert
+            dense
+            type="success"
+            elevation="2"
+            v-if="$store.getters.totalPrice > 1000"
+            class="mt-6"
+          >
+            Parabéns, sua compra tem frete grátis !
+          </v-alert>
+
           <v-btn large class="mt-3 primary">Finalizar compra</v-btn>
         </v-col>        
       </v-row>

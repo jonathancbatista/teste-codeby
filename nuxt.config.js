@@ -76,7 +76,7 @@ export default {
           info: '#FBB404',
           warning: '#F40494',
           error: '#049DCF',   // repetida da primeira
-          success: '#049DCF'  // repetida da primeira
+          success: '#4CAF50' 
         }
       },
     },
