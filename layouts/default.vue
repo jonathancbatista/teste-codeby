@@ -6,7 +6,7 @@
     >
       <v-img
         class="mx-auto"
-        src="/Logo.png"
+        src="./Logo.png"
         max-height="130"
         max-width="130"
         contain
@@ -45,7 +45,7 @@
     >
       <v-img
         class="mx-auto"
-        src="/Logo.png"
+        src="./Logo.png"
         max-height="130"
         max-width="130"
         contain
